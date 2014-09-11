@@ -1,0 +1,76 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <dirent.h>
+#include "freq_list.h"
+#include "worker.h"
+
+/*Iterate through the frequency arrays and save the data in
+Freq Record array*/
+FreqRecord **get_freq_records(Node *head, char **filenames){
+	
+	FreqRecord **freqNode = (FreqRecord **) malloc(MAXFILES * sizeof(FreqRecord));
+
+	if (freqNode == NULL) {
+        perror("Error allocating space for freqNode.");
+        exit(1);
+	}
+	
+	int fIndex = 0;
+	int i;	
+	for(i = 0; i < MAXFILES; i++){
+		if(head->freq[i] == 0){
+			continue;
+		}
+		else{	
+			freqNode[fIndex]->freq = head->freq[i];
+			strncpy(freqNode[fIndex]->filename, filenames[i], strlen(filenames[i]));
+			fIndex++;
+		}
+	}
+	/*insert the ending indicator*/
+	freqNode[fIndex + 1]->freq = 0;
+	return freqNode;
+}
+
+/* The function get_word should be added to this file */
+FreqRecord **get_word(char *word, Node *head, char **filenames){
+	while(head != NULL) {
+		/* If the word matches the node*/
+		if((strcmp(head->word, word)) == 0) {
+			FreqRecord **freqNode = get_freq_records(head, filenames);			
+			return freqNode;	
+		} 
+	head = head->next;
+	}
+
+	/*if no match of words are found*/
+	FreqRecord **freqNode = (FreqRecord **) malloc(sizeof(FreqRecord));
+	freqNode[0]->freq = 0;
+	return freqNode; 
+}
+
+
+/* Print to standard output the frequency records for a word.
+* Used for testing.
+*/
+void print_freq_records(FreqRecord *frp) {
+	int i = 0;
+	while(frp != NULL && frp[i].freq != 0) {
+		printf("%d    %s\n", frp[i].freq, frp[i].filename);
+		i++;
+	}
+}
+
+/* run_worker
+* - load the index found in dirname
+* - read a word from the file descriptor "in"
+* - find the word in the index list
+* - write the frequency records to the file descriptor "out"
+*/
+void run_worker(char *dirname, int in, int out){
+	
+
+}
+

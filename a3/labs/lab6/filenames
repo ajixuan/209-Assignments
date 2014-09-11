@@ -1,0 +1,7 @@
+./Makefile
+./simplefork.c
+./lab6.txt
+./simplepipe.c
+./childcreates.c
+./forkloop.c
+./parentcreates.c

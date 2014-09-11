@@ -1,0 +1,33 @@
+# Makefile for programs to index and search an index.
+
+FLAGS= -Wall -g
+SRC =  freq_list.c punc.c
+OBJ =  freq_list.o punc.o
+
+all : indexer queryone printindex test_get_word query
+
+indexer : indexer.o ${OBJ}
+	gcc ${FLAGS} -o $@ indexer.o ${OBJ}
+
+printindex : printindex.o ${OBJ}
+	gcc ${FLAGS} -o $@ printindex.o ${OBJ}
+
+test_get_word : worker.o freq_list.o test_get_word.o ${OBJ}
+	gcc ${FLAGS} -o $@ freq_list.o worker.o test_get_word.o
+	
+query : query.o worker.o ${OBJ}
+	gcc ${FLAGS} -o $@ query.o worker.o ${OBJ}
+
+# Separately compile each C file
+%.o : %.c freq_list.h 
+	gcc ${FLAGS} -c $<
+
+queryone.o : worker.h
+worker.o : worker.h
+
+# Update all dependencies.
+depend : 
+	makedepend ${SRC}
+
+clean :
+	-rm *.o indexer queryone printindex

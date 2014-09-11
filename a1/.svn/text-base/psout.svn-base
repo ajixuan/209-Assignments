@@ -1,0 +1,186 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0   3504  1764 ?        Ss   Jan20   0:03 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    Jan20   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Jan20   0:02 [ksoftirqd/0]
+root         6  0.0  0.0      0     0 ?        S    Jan20   0:00 [migration/0]
+root         7  0.0  0.0      0     0 ?        S    Jan20   0:01 [watchdog/0]
+root         8  0.0  0.0      0     0 ?        S    Jan20   0:01 [migration/1]
+root        10  0.0  0.0      0     0 ?        S    Jan20   0:02 [ksoftirqd/1]
+root        12  0.0  0.0      0     0 ?        S    Jan20   0:00 [watchdog/1]
+root        13  0.0  0.0      0     0 ?        S    Jan20   0:00 [migration/2]
+root        15  0.0  0.0      0     0 ?        S    Jan20   0:01 [ksoftirqd/2]
+root        16  0.0  0.0      0     0 ?        S    Jan20   0:00 [watchdog/2]
+root        17  0.0  0.0      0     0 ?        S    Jan20   0:00 [migration/3]
+root        19  0.0  0.0      0     0 ?        S    Jan20   0:01 [ksoftirqd/3]
+root        20  0.0  0.0      0     0 ?        S    Jan20   0:00 [watchdog/3]
+root        21  0.0  0.0      0     0 ?        S<   Jan20   0:00 [cpuset]
+root        22  0.0  0.0      0     0 ?        S<   Jan20   0:00 [khelper]
+root        23  0.0  0.0      0     0 ?        S    Jan20   0:00 [kdevtmpfs]
+root        24  0.0  0.0      0     0 ?        S<   Jan20   0:00 [netns]
+root        26  0.0  0.0      0     0 ?        S    Jan20   0:00 [sync_supers]
+root        27  0.0  0.0      0     0 ?        S    Jan20   0:00 [bdi-default]
+root        28  0.0  0.0      0     0 ?        S<   Jan20   0:00 [kintegrityd]
+root        29  0.0  0.0      0     0 ?        S<   Jan20   0:00 [kblockd]
+root        30  0.0  0.0      0     0 ?        S<   Jan20   0:00 [ata_sff]
+root        31  0.0  0.0      0     0 ?        S    Jan20   0:00 [khubd]
+root        32  0.0  0.0      0     0 ?        S<   Jan20   0:00 [md]
+root        34  0.0  0.0      0     0 ?        S    Jan20   0:00 [khungtaskd]
+root        35  0.0  0.0      0     0 ?        S    Jan20   0:05 [kswapd0]
+root        36  0.0  0.0      0     0 ?        SN   Jan20   0:00 [ksmd]
+root        37  0.0  0.0      0     0 ?        SN   Jan20   0:00 [khugepaged]
+root        38  0.0  0.0      0     0 ?        S    Jan20   0:00 [fsnotify_mark]
+root        39  0.0  0.0      0     0 ?        S    Jan20   0:00 [ecryptfs-kthrea]
+root        40  0.0  0.0      0     0 ?        S<   Jan20   0:00 [crypto]
+root        48  0.0  0.0      0     0 ?        S<   Jan20   0:00 [kthrotld]
+root        50  0.0  0.0      0     0 ?        S    Jan20   0:00 [scsi_eh_0]
+root        51  0.0  0.0      0     0 ?        S    Jan20   0:00 [scsi_eh_1]
+root        52  0.0  0.0      0     0 ?        S    Jan20   0:00 [scsi_eh_2]
+root        53  0.0  0.0      0     0 ?        S    Jan20   0:00 [scsi_eh_3]
+root        54  0.0  0.0      0     0 ?        S    Jan20   0:00 [scsi_eh_4]
+root        55  0.0  0.0      0     0 ?        S    Jan20   0:00 [scsi_eh_5]
+root        58  0.0  0.0      0     0 ?        S    Jan20   0:00 [kworker/u:5]
+root        59  0.0  0.0      0     0 ?        S    Jan20   0:00 [kworker/u:6]
+root        81  0.0  0.0      0     0 ?        S<   Jan20   0:00 [devfreq_wq]
+root       257  0.0  0.0      0     0 ?        S    Jan20   0:00 [jbd2/sda1-8]
+root       258  0.0  0.0      0     0 ?        S<   Jan20   0:00 [ext4-dio-unwrit]
+root       329  0.0  0.0   2836   512 ?        S    Jan20   0:01 upstart-udev-bridge --daemon
+root       331  0.0  0.0   3176  1124 ?        Ss   Jan20   0:00 /sbin/udevd --daemon
+root       558  0.0  0.0   2848   284 ?        S    Jan20   0:00 upstart-socket-bridge --daemon
+root       568  0.0  0.0      0     0 ?        S    Jan20   0:00 [irq/45-mei]
+root       573  0.0  0.0      0     0 ?        S<   Jan20   0:00 [kpsmoused]
+root       632  0.0  0.0   2700   776 ?        Ss   Jan20   0:00 rpcbind -w
+root       642  0.0  0.0      0     0 ?        S<   Jan20   0:00 [hd-audio0]
+root       648  0.0  0.0      0     0 ?        S    Jan20   0:00 [jbd2/sda7-8]
+root       649  0.0  0.0      0     0 ?        S<   Jan20   0:00 [ext4-dio-unwrit]
+root       657  0.0  0.0      0     0 ?        S    Jan20   0:03 [flush-8:0]
+root       704  0.0  0.0      0     0 ?        S    Jan20   0:00 [jbd2/sda9-8]
+root       705  0.0  0.0      0     0 ?        S<   Jan20   0:00 [ext4-dio-unwrit]
+root       710  0.0  0.0      0     0 ?        S    Jan20   0:00 [jbd2/sda8-8]
+root       711  0.0  0.0      0     0 ?        S<   Jan20   0:00 [ext4-dio-unwrit]
+root       721  0.0  0.0      0     0 ?        S    Jan20   0:04 [jbd2/sda6-8]
+root       722  0.0  0.0      0     0 ?        S<   Jan20   0:00 [ext4-dio-unwrit]
+root       747  0.0  0.0      0     0 ?        S<   Jan20   0:00 [rpciod]
+root       782  0.0  0.0      0     0 ?        S<   Jan20   0:00 [nfsiod]
+root       791  0.0  0.1  31064  1804 ?        Sl   Jan20   0:29 rsyslogd -c5
+statd      792  0.0  0.0   2960   876 ?        Ss   Jan20   0:00 rpc.statd -L
+root       796  0.0  0.0   2912   468 ?        Ss   Jan20   0:00 rpc.idmapd
+72         797  0.0  0.0   3848  1608 ?        Ss   Jan20   0:05 dbus-daemon --system --fork --activation=upstart
+c2jixuan   829  0.0  0.0   2000   280 ?        Ss   15:26   0:00 endxsession::0 /var/shell/bash -l /h/u5/c2/00/c2jixuan/.xwm
+root       842  0.0  0.0   2928   192 ?        Ss   Jan20   0:00 dhclient3 -e IF_METRIC=100 -pf /var/run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases -1 eth0
+root       867  0.0  0.0      0     0 ?        S    15:26   0:01 [kworker/2:0]
+root       923  0.0  0.0   2236   512 ?        Ss   Jan20   0:00 /bin/sh /local/libexec/machineauth/machineauth
+root       931  0.0  0.0   3172   732 ?        S    15:26   0:00 /sbin/udevd --daemon
+root       932  0.0  0.0   3172   704 ?        S    15:26   0:00 /sbin/udevd --daemon
+root       942  0.0  0.0   3492   744 ?        Ss   Jan20   0:00 SCREEN -Dm su mauth -c ssh -o BatchMode=yes -o ServerAliveCountMax=3 -o ServerAliveInterval=10 -o ConnectTimeout=25 -o SetupTimeOut=25 fw1 1>/dev/null 2>/dev/null
+root       943  0.0  0.0   2236   476 ?        Ss   Jan20   0:00 /bin/sh /usr/bin/svscanboot
+mauth      945  0.0  0.0   3904  1144 pts/11   Ss+  Jan20   0:00 su mauth -c ssh -o BatchMode=yes -o ServerAliveCountMax=3 -o ServerAliveInterval=10 -o ConnectTimeout=25 -o SetupTimeOut=25 fw1 1>/dev/null 2>/dev/null
+root       949  0.0  0.0   2564   640 ?        Ss   Jan20   0:00 /usr/sbin/xinetd -dontfork -pidfile /var/run/xinetd.pid -stayalive -inetd_compat -inetd_ipv6
+root       951  0.0  0.0   2620   792 ?        Ss   Jan20   0:00 cron
+root       953  0.0  0.0      0     0 ?        S    15:26   0:01 [kworker/3:1]
+root       963  0.0  0.0   2180   380 ?        S    Jan20   0:04 svscan /etc/service
+root       964  0.0  0.0   2004   224 ?        S    Jan20   0:00 readproctitle service errors: ................................................................................................................................................................................................................................................................................................................................................................................................................
+root       987  0.0  0.0   2016   244 ?        S    Jan20   0:00 supervise smartd
+root       988  0.0  0.0   2016   240 ?        S    Jan20   0:00 supervise log
+root       989  0.0  0.0   2016   244 ?        S    Jan20   0:00 supervise ntpd
+root       990  0.0  0.0   2016   248 ?        S    Jan20   0:00 supervise log
+root       991  0.0  0.0   2016   244 ?        S    Jan20   0:00 supervise cfenvd
+root       993  0.0  0.0   2016   244 ?        S    Jan20   0:00 supervise cfexecd
+root       994  0.0  0.0   2016   240 ?        S    Jan20   0:00 supervise log
+root       995  0.0  0.0   2016   244 ?        S    Jan20   0:00 supervise kdm
+root       996  0.0  0.0   2016   244 ?        S    Jan20   0:00 supervise log
+root       997  0.0  0.0   2016   244 ?        S    Jan20   0:00 supervise qmail-send
+root       998  0.0  0.0   2016   244 ?        S    Jan20   0:00 supervise log
+root       999  0.0  0.1   7620  2252 ?        S    Jan20   0:15 cfenvd -F
+root      1000  0.0  0.0   4088  1384 ?        S    Jan20   0:00 smartd --no-fork --quit=errors --interval=1800 --configfile=/etc/smartd.conf --logfacility=daemon --pidfile=/var/run/smartd.pid
+nobody    1001  0.0  0.0   2152   228 ?        S    Jan20   0:00 logger -i -t kdm -p daemon.info
+ntp       1002  0.0  0.0   5612  1572 ?        S    Jan20   0:09 ntpd -u ntp:ntp -n -g -c /etc/ntp.conf -p /var/run/ntpd.pid
+qmaill    1003  0.0  0.0   2152   420 ?        S    Jan20   0:00 splogger qmail
+qmails    1006  0.0  0.0   2176   356 ?        S    Jan20   0:00 qmail-send
+nobody    1008  0.0  0.0   2152   228 ?        S    Jan20   0:00 logger -i -t smartd -p daemon.info
+nobody    1009  0.0  0.0   2152   228 ?        S    Jan20   0:00 logger -i -t ntpd -p daemon.info
+root      1010  0.0  0.0   4248   988 ?        S    Jan20   0:00 kdm -nodaemon -config /etc/X11/kdm/kdmrc
+root      1011  0.0  0.0   2236   540 ?        S    Jan20   0:00 /bin/sh /var/cfengine/local/cfengine_scheduler.sh
+nobody    1012  0.0  0.0   2152   528 ?        S    Jan20   0:00 logger -p daemon.err -t cfexecd
+nobody    1013  0.0  0.0   2152   228 ?        S    Jan20   0:00 logger -p daemon.err -t cfenvd
+root      1039  0.0  0.1  34216  2716 ?        Sl   Jan20   0:00 /usr/sbin/console-kit-daemon --no-daemon
+root      1092  0.0  0.0   2928   192 ?        Ss   Jan20   0:00 dhclient3 -e IF_METRIC=100 -pf /var/run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases -1 eth0
+c2jixuan  1098  0.0  0.0   3104  1268 ?        S    15:26   0:00 /var/shell/bash -l /h/u5/c2/00/c2jixuan/.xwm
+c2jixuan  1108  0.0  0.0   3140  1252 ?        S    15:26   0:00 /bin/bash /local/bin/startkde
+root      1110  0.0  0.0   6684  1716 ?        Ss   Jan20   0:02 /usr/sbin/sshd -D
+c2jixuan  1135  0.0  0.0   2236   628 ?        S    15:26   0:00 /bin/sh /usr/bin/startkde
+daemon    1148  0.0  0.0   4128   392 ?        Ss   Jan20   0:00 lpd Waiting  
+root      1152  0.0  0.0   2160   212 ?        S    Jan20   0:00 qmail-lspawn |dot-forward .forward?|preline procmail
+qmailr    1153  0.0  0.0   2156   216 ?        S    Jan20   0:00 qmail-rspawn
+qmailq    1154  0.0  0.0   2140   316 ?        S    Jan20   0:00 qmail-clean
+qmails    1155  0.0  0.0   2164   384 ?        S    Jan20   0:00 qmail-todo
+qmailq    1156  0.0  0.0   2140   316 ?        S    Jan20   0:00 qmail-clean
+c2jixuan  1240  0.0  0.0   3940   504 ?        S    15:26   0:00 dbus-launch --sh-syntax --exit-with-session
+c2jixuan  1241  0.0  0.0   4048  1288 ?        Ss   15:26   0:00 //bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+c2jixuan  1253  0.0  0.0   2008    56 ?        S    15:26   0:00 /usr/lib/kde4/libexec/start_kdeinit +kcminit_startup
+root      1254  0.0  0.0      0     0 ?        S    Jan20   0:00 [lockd]
+root      1255  0.0  0.0      0     0 ?        S<   Jan20   0:00 [nfsd4]
+root      1256  0.0  0.0      0     0 ?        S<   Jan20   0:00 [nfsd4_callbacks]
+root      1257  0.0  0.0      0     0 ?        S    Jan20   0:00 [nfsd]
+root      1258  0.0  0.0      0     0 ?        S    Jan20   0:00 [nfsd]
+root      1259  0.0  0.0      0     0 ?        S    Jan20   0:00 [nfsd]
+root      1260  0.0  0.0      0     0 ?        S    Jan20   0:00 [nfsd]
+root      1261  0.0  0.0      0     0 ?        S    Jan20   0:00 [nfsd]
+root      1262  0.0  0.0      0     0 ?        S    Jan20   0:00 [nfsd]
+root      1263  0.0  0.0      0     0 ?        S    Jan20   0:00 [nfsd]
+root      1264  0.0  0.0      0     0 ?        S    Jan20   0:00 [nfsd]
+c2jixuan  1265  0.0  0.9 114708 17244 ?        Ss   15:26   0:00 kdeinit4: kdeinit4 Running...                  
+c2jixuan  1266  0.0  0.4 116460  8396 ?        S    15:26   0:00 kdeinit4: klauncher [kdeinit] --fd=9           
+root      1269  0.0  0.1  25208  3516 ?        Sl   Jan20   0:02 /usr/lib/policykit-1/polkitd --no-debug
+c2jixuan  1270  0.0  1.2 233108 22224 ?        Sl   15:26   0:01 kdeinit4: kded4 [kdeinit]                      
+root      1273  0.0  0.0      0     0 ?        S    15:26   0:00 [flush-0:28]
+root      1274  0.0  0.0   3376   268 ?        Ss   Jan20   0:00 /usr/sbin/rpc.mountd --manage-gids
+c2jixuan  1277  0.0  0.7  80876 14328 ?        S    15:26   0:00 /usr/bin/kglobalaccel
+c2jixuan  1281  0.0  0.8  80324 14428 ?        S    15:26   0:00 /usr/bin/kactivitymanagerd
+c2jixuan  1284  0.0  0.0   2144   280 ?        S    15:26   0:00 kwrapper4 ksmserver
+c2jixuan  1285  0.0  0.8 140948 15788 ?        Sl   15:26   0:00 kdeinit4: ksmserver [kdeinit]                  
+c2jixuan  1290  2.1  4.1 285912 75284 ?        Sl   15:26   2:04 kwin
+mauth     1293  0.0  0.0   3096   908 pts/11   S+   Jan20   0:00 bash -c ssh -o BatchMode=yes -o ServerAliveCountMax=3 -o ServerAliveInterval=10 -o ConnectTimeout=25 -o SetupTimeOut=25 fw1 1>/dev/null 2>/dev/null
+mauth     1294  0.0  0.1   6276  1816 pts/11   S+   Jan20   0:03 ssh -o BatchMode=yes -o ServerAliveCountMax=3 -o ServerAliveInterval=10 -o ConnectTimeout=25 -o SetupTimeOut=25 fw1
+c2jixuan  1296  0.0  1.4 211080 25256 ?        Sl   15:26   0:01 /usr/bin/knotify4
+c2jixuan  1300  0.0  4.0 317220 73036 ?        Sl   15:26   0:05 /usr/bin/plasma-desktop
+c2jixuan  1311  0.0  0.8  80200 14484 ?        S    15:26   0:00 /usr/bin/kuiserver
+root      1323  0.0  0.0   2016   244 ?        S    Jan20   0:00 supervise log
+nobody    1324  0.0  0.0   2152   228 ?        S    Jan20   0:00 logger -p daemon.err -t cfenvd
+c2jixuan  1330  0.0  0.8  84216 15032 ?        S    15:26   0:01 /usr/bin/kaccess
+c2jixuan  1337  0.0  0.3 124020  7088 ?        Sl   15:26   0:00 kdeinit4: nepomukserver [kdeinit]              
+c2jixuan  1341  0.0  0.2  54656  5144 ?        Sl   15:26   0:00 /usr/bin/zeitgeist-datahub
+c2jixuan  1342  0.0  0.0      0     0 ?        Z    15:26   0:00 [nepomukserver] <defunct>
+c2jixuan  1351  0.0  1.8 238536 32656 ?        Sl   15:26   0:02 /usr/bin/krunner
+c2jixuan  1354  0.0  0.2  44900  4380 ?        Sl   15:26   0:00 /usr/bin/zeitgeist-daemon
+c2jixuan  1356  0.0  0.8  91572 16108 ?        Sl   15:26   0:00 /usr/lib/kde4/libexec/polkit-kde-authentication-agent-1
+c2jixuan  1357  0.0  1.3 292340 23480 ?        Sl   15:26   0:00 /usr/bin/kmix
+c2jixuan  1359  0.9  0.8  80636 15840 ?        S    15:26   0:54 /usr/bin/klipper
+c2jixuan  1366  0.0  0.2  97200  5016 ?        S<l  15:26   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+c2jixuan  1371  0.0  0.4  51984  8036 ?        Sl   15:26   0:00 /usr/lib/zeitgeist/zeitgeist-fts
+c2jixuan  1379  0.0  0.1   6384  2084 ?        S    15:26   0:00 /usr/lib/gvfs/gvfsd
+c2jixuan  1384  0.0  0.0   2176   280 ?        S    15:26   0:00 /bin/cat
+c2jixuan  1412  8.9 12.5 799372 224460 ?       Sl   15:26   8:42 /usr/lib/firefox/firefox
+c2jixuan  1417  0.0  0.1   6692  2224 ?        S    15:26   0:00 /usr/lib/i386-linux-gnu/gconf/gconfd-2
+c2jixuan  1784  1.3  2.1 218460 39124 ?        Sl   15:37   1:10 /usr/lib/firefox/plugin-container /usr/lib/adobe-flashplugin/libflashplayer.so -greomni /usr/lib/firefox/omni.ja 1412 true plugin
+c2jixuan  2233  0.0  1.7 105492 30560 ?        Sl   15:53   0:02 /usr/bin/dolphin --icon system-file-manager -caption Dolphin
+c2jixuan  3546  0.4  1.5 105692 27360 ?        Sl   16:10   0:14 /usr/bin/konsole
+c2jixuan  3646  0.0  1.7 105988 31300 ?        Sl   16:11   0:03 /usr/bin/dolphin --icon system-file-manager -caption Dolphin
+root      4398  0.1  0.0      0     0 ?        S    16:41   0:01 [kworker/0:1]
+c2jixuan  4658  0.0  0.6  77804 11588 ?        Sl   16:50   0:00 /usr/lib/firefox/plugin-container /usr/lib/mozilla/plugins/nppdf.so -greomni /usr/lib/firefox/omni.ja 1412 true plugin
+c2jixuan  4661  0.1  0.0      0     0 ?        Z    16:50   0:01 [acroread] <defunct>
+root      4840  0.0  0.0      0     0 ?        S    16:56   0:00 [kworker/0:0]
+c2jixuan  4882  0.0  0.0   3480  1764 pts/2    Ss   16:58   0:00 /var/shell/bash
+root      4989  0.0  0.0   2152   280 ?        S    17:01   0:00 sleep 300
+root      5020  0.0  0.0      0     0 ?        S    17:02   0:00 [kworker/0:2]
+c2jixuan  5045  0.0  0.0   2872  1052 pts/2    R+   17:03   0:00 ps aux
+root     26936  0.0  0.0      0     0 ?        S    12:39   0:01 [kworker/3:0]
+root     27057  0.0  0.0      0     0 ?        S    12:39   0:04 [kworker/1:2]
+root     27332  0.0  0.0  29700  1444 ?        Ssl  Jan23   0:02 /usr/sbin/automount
+root     28080  0.0  0.0      0     0 ?        S    12:53   0:01 [kworker/2:2]
+root     28598  2.2  2.3  71660 42616 tty7     Ss+  12:59   5:35 /usr/bin/X -br :0 vt7 -nolisten tcp -auth /var/run/xauth/A:0-TZCN5b
+root     28600  0.0  0.1   5880  2400 ?        S    12:59   0:00 -:0                                     
+root     28614  0.0  0.0      0     0 ?        S    13:00   0:02 [kworker/1:0]
+root     29377  0.0  0.1  28380  3364 ?        Sl   Jan21   0:00 /usr/lib/upower/upowerd
+root     29443  0.0  0.1  25344  3568 ?        Sl   Jan21   0:14 /usr/lib/udisks/udisks-daemon
+root     29445  0.0  0.0   6556   500 ?        S    Jan21   0:00 udisks-daemon: not polling any devices
+rtkit    29607  0.0  0.0  21332  1120 ?        SNl  Jan21   0:02 /usr/lib/rtkit/rtkit-daemon

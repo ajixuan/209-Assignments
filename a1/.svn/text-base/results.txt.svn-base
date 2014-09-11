@@ -1,0 +1,16 @@
+c2jixuan
+ji xuan tian ren
+0,1,1776,/u/csc209h/winter/pub/bin/checkstep1 ,Step 1 successfully completed.
+1,2,1776,/u/csc209h/winter/pub/bin/checkstep2 ,The SHELL variable is not bash
+1,2,1776,/u/csc209h/winter/pub/bin/checkstep2 ,The SHELL variable is not bash
+1,2,1776,/u/csc209h/winter/pub/bin/checkstep2 ,The SHELL variable is not bash
+1,2,1776,/u/csc209h/winter/pub/bin/checkstep2 ,The SHELL variable is not bash
+0,3,1776,checkstep3 ,Step 3 successfully completed.
+0,3,1776,checkstep3 ,Step 3 successfully completed.
+0,5,1776,checkstep5 ,Step 5 successfully completed.
+1,6,1776,/u/csc209h/winter/pub/bin/checkstep6 ,file2 does not have correct permissions
+1,8,1776,checkstep8 -n 4874 ,psout not found
+1,8,1776,checkstep8 -n 4874 ,psout not found
+1,7,1776,checkstep7 -n 4874 ,Bad call
+0,7,1776,checkstep7 -p 4874 ,Step 7 successfully completed.
+0,8,1776,checkstep8 -n 62 ,Step 8 successfully completed.

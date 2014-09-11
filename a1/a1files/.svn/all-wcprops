@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/csc209-2013-01/c2jixuan/!svn/ver/5/a1/a1files
+END
+file1
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/csc209-2013-01/c2jixuan/!svn/ver/5/a1/a1files/file1
+END
+file2
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/csc209-2013-01/c2jixuan/!svn/ver/5/a1/a1files/file2
+END
+file3
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/csc209-2013-01/c2jixuan/!svn/ver/5/a1/a1files/file3
+END

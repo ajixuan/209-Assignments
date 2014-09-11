@@ -1,0 +1,74 @@
+#!/bin/sh
+#Syntax: mymk [-f file] target
+#Checks if target is up to date relative to depency files as specified in [-f file] or by default in a file calle makefile. If file is not up to date then execute [-f file] or makefile
+#
+
+# If the user specifies a makefile document
+if [ "$#" = 3 -a "$1" = "-f" ];then
+	target=$3
+	mak=$2
+
+#If the user does not specify a makefile document
+elif [ "$#" = 1 ]; then
+	target=$1
+	mak=makefile
+	if [ ! -f $mak ];then
+	echo "makefile doesn't exist"
+	exit 1	
+	fi
+
+#If the user inputs something invalid
+else
+	echo "invalid input"
+	exit 1
+fi
+
+#Read the makefile document
+while read line
+	do	
+		# Cutting to get the target string in the text
+		token=`echo $line | cut -d ':' -f 1 -s|tr -d '[:space:]'` 
+		
+		# Cutting to where semicolons are usually found
+		isaction=`echo $line | cut -d ' ' -f 2` 
+		
+		#If the target find its dependencies
+		if [ "$token" = "$target" ];then 		
+			dep=`echo $line | cut -d ':' -f 2 -s`
+
+			# For each of the dependency files
+			for item in $dep
+				do
+				#Check if the dependencie s are out of date			
+				if [ $item -nt $target ]; then				
+					isfound=true #Mark that actions need to be performed						
+					#Recurse program to check if it is a target itself			
+					mymk -f $mak $item  
+				fi			
+			done		
+		#If the target's dependencies are found, 
+		# and the line is an action, perform the action
+		elif [ "$isfound" = "true" -a "$isaction" != ":" ];then
+			#Execute the action		
+			$line
+		fi
+	done < $mak
+exit 0
+
+
+
+
+
+	
+
+
+
+
+
+
+		
+
+
+
+
+
